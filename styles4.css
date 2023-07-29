@@ -1,0 +1,47 @@
+nav{
+    height:70px;
+    width:100%;
+    /* border-radius:40%;
+    margin:40px; */
+    display:flex;
+    flex-direction:column; 
+    justify-content:center;
+    font-weight: bolder;
+    opacity:0.8;
+    /* background-color:red; */
+    position:fixed;
+    top:0;
+    left:0;
+    background-image: url("download.jpg");
+
+
+  
+}
+nav ul{
+    display:flex;
+    list-style: none;
+    justify-content: space-around;
+}
+nav ul li{
+    display:flex;
+  
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    
+    font-size: 20px;color:yellow;
+}
+.par{
+   margin-top: 70px; 
+    background-color:lightcyan;
+    width:100%;
+
+}
+*{
+    margin:0;
+    padding:0;
+}
